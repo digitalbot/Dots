@@ -1,8 +1,6 @@
 set encoding=utf-8                    " デフォルトエンコーディング
 
-
-
-set nocompatible                      " Vimっす。vi互換なしっす。
+set nocompatible                      " vi互換なし
 set scrolloff=5                       " スクロール時の余白確保
 set textwidth=0                       " 一行に長い文章を書いていても自動折り返しをしない
 set autoread                          " 他で書き換えられたら自動で読み直す
