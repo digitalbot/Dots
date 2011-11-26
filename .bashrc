@@ -34,7 +34,6 @@ alias syslog='tail -f /var/log/system.log'
 
 #base pm_list:
 #alias pm_list="cat `perldoc -l perllocal` | ruby -e 'while l = gets; if r = l.match(/C<Module> L<(.*?)\|.*?>/) then puts r.captures[0]  end;end' | sort -u"
- alias pm_list14='cat /Users/kosuke/perl5/perlbrew/perls/perl-5.14.1/lib/5.14.1/darwin-2level/perllocal.pod | ruby -e '\''while l = gets; if r = l.match(/C<Module> L<(.*?)\|.*?>/) then puts r.captures[0]  end;end'\'' | sort -u'
 
 alias yappo="perl -MAcme::Oppai -e 'print Acme::Oppai->new(default => 'default')->oppai';"
 
