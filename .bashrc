@@ -29,6 +29,7 @@ alias terminal='open -n /Applications/Utilities/Terminal.app'
 #alias which='alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde'
 dp='~/Dropbox/Public/'
 alias cdp="cd $dp"
+alias old="cd $OLDPWD"
 alias bind_list_bash="bind -p | egrep -v '^#|self-insert|do-lowercase-version|digit-argument'"
 alias syslog='tail -f /var/log/system.log'
 
